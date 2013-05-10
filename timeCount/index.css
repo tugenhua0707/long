@@ -1,0 +1,44 @@
+.tao-container{width:100%;background:url("http://img01.taobaocdn.com/tps/i1/T1V0tqXtJiXXXohqA_-126-81.jpg") repeat;}
+/*** 所有月份 ***/
+.tao-allMonth-w990{width:990px;margin:0 auto; overflow:hidden;}
+.tao-video-left{float:left;width:620px;overflow:hidden;}
+.tao-video-block{width:620px;overflow:hidden;}
+.tao-header-title{width:100%;height:26px;overflow:hidden;}
+.tao-header-title{color:#ff6600;font-family:"Microsoft yahei";font-weight:700;font-size:18px;padding-left:42px;}
+.tao-dottle-top{width:10px;height:40px;background:#ffcc99;margin-left:68px;overflow:hidden;}
+.tao-video-content{position:relative;width:620px;overflow:hidden;}
+.tao-video-content .addBlock{position:absolute;left:68px;width:10px;height:16px;background:#FFCC99;}
+.left-date{float:left;width:60px;height:20px;line-height:20px;margin-top:18px;color:#ff6600;font-size:14px;font-family:"Microsoft yahei";overflow:hidden;}
+.left-date span{float:left;}
+.tao-video-content .tao-line{float:left;display:inline;width:10px;height:205px;margin:24px 0 0 8px;background:url("http://img02.taobaocdn.com/tps/i2/T1je8uXEBgXXagEfc2-10-205.png") no-repeat;overflow:hidden;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://img02.taobaocdn.com/tps/i2/T1je8uXEBgXXagEfc2-10-205.png" ,sizingMethod="noscale");}
+.tao-inner-content{float:left;display:inline;background:url("http://img03.taobaocdn.com/tps/i3/T16VXtXBNiXXXPeW.X-519-190.png") no-repeat;width:519px;height:190px;margin:0px 0 0 20px;overflow:hidden;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://img03.taobaocdn.com/tps/i3/T16VXtXBNiXXXPeW.X-519-190.png" ,sizingMethod="noscale");}
+/*** 所有月份 中板块内容css***/
+.tao-inner-block{width:450px;height:130px;margin:30px 0 0 40px;overflow:hidden;}
+.tao-inner-block .inner-left{float:left;width:190px;height:130px;overflow:hidden;}
+.inner-left .alink{position:relative;display:block;width:190px;height:130px;overflow:hidden;}
+.tao-inner-block .icon-player{position:absolute;background:url("http://img02.taobaocdn.com/tps/i2/T1J5FFXy8cXXaiphQj-60-145.png") no-repeat 0 -40px;width:50px;height:50px;top:68px;left:10px;z-index:10;overflow:hidden;}
+.inner-right{float:right;width:242px;height:130px;}
+.inner-date{color:#666666;font-family:"Tahoma";}
+.inner-title{width:242px;height:22px;line-height:22px;margin-top:5px;overflow:hidden;}
+.inner-title a{font-family:"Microsoft yahei";font-size:18px;color:#333;font-weight:700;}
+.inner-title a:hover{color:#ff1155;text-decoration:none;}
+.inner-content{color:#999;line-height:18px;margin-top:12px;}
+
+/*** 右侧 ***/
+.tao-year-right{float:right;width:311px;overflow:hidden;}
+/*** 当滚动条滚动到离顶部距离很少时候 ***/
+.tao-year-right .mod-fixed{position:fixed;top:0px;z-index:10;width:60px;overflow:hidden;}
+.mod-timelinenav{margin-top:20px;}
+.mod-timelinenav .yearlink{display:inline-block;}
+.mod-timelinenav a{display:inline-block;}
+.mod-timelinenav a:hover{text-decoration:none;}
+.mod-timelinenav .yearlink,.mod-timelinenav .monthlink{color:#7fccff;font-family:"Tahoma";border-left:10px solid #74c2fa;padding-left:8px;line-height:20px;}
+.mod-timelinenav .norecord{display:none;}
+.mod-timelinenav .active .yearlink,.mod-timelinenav .active .monthlink{color:#0099ff;font-family:"Tahoma";border-left:10px solid #0099ff;padding-left:8px;line-height:20px;}
+.mod-timelinenav .active .monthlink{color:#7fccff;}
+.mod-timelinenav .highlight .monthlink{color:#0099ff;font-family:"Tahoma";}
+.mod-timelinenav .active .timelinenav-mpanel{display:block;}
+.mod-timelinenav .timelinenav-mpanel{display:none;}
+.timelinenav-panel{width:60px;overflow:hidden;}
+.timelinenav-panel li{margin:1px 0;}
+.timelinenav-panel li.active,.timelinenav-panel li.active .timelinenav-mpanel li{margin:0;}
